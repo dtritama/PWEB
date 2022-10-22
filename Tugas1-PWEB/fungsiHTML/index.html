@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="tags">
+        <!-- 
+            <img src=”url” alt=”text“> : Basic Image
+            <img> Tag Attributes:  
+            
+            src=”url“ : URL or filename of image (required!)
+            alt=”text“ : Alternate Text (required!)
+            align=”?” : Image alignment within surrounding text
+            width=”??” : Image width (in pixels or %)
+            height=”??” : Image height (in pixels or %)
+            border=”??” : Border thickness (in pixels)
+            vspace=”??” : Space above and below image (in pixels)
+            hspace=”??” : Space on either side of image (in pixels)
+        -->
+        <div style="text-align: center; color: black; margin-bottom: 150px;">
+            <span style="font-size:18px;">Bendera</span><br />
+            <span style="color: red;">merah</span>
+            <hr style="color:blue; width:50%;" />
+            <span style="color: white; background-color: red; font-size:24px;">putih</span>
+        </div>
+    
+        <div align="center">
+            <img style="width: 200px; height: 105px; border-width: 1px; border-style: solid; margin: 10px;" 
+            src="https://stmikdharmanegara.ac.id/wp-content/uploads/2021/08/LOGO-DNBS-05-2.png" alt="Logo STMIK DN" />
+            <p>Link ke <a href="https://stmikdharmanegara.ac.id/" target="_blank" title="Masuk ke website STMIK DN"><span style="color:#FF0000;">Website STMIK DN</span></a></p>
+        </div>
+        <div align="center">
+            <a href="https://stmikdharmanegara.ac.id/" target="_blank" title="Masuk ke website STMIK DN"><img src="https://stmikdharmanegara.ac.id/wp-content/uploads/2021/08/LOGO-DNBS-05-2.png" style="width: 200px; height: 105px; border-width: 0px; 
+            border-style: solid; margin: 10px;" /></a>
+        </div>
+    </section>
+    <hr>
+
+    <section id="list">
+        <h1 align="center">List</h1>
+        <ol type="A">
+            <li>Judul</li>
+            <li>Sub Judul</li>
+            <li>Sub Sub Judul</li>
+        </ol>
+
+        <ol type="1">
+            <li>Judul</li>
+            <li>Sub Judul</li>
+            <li>Sub Sub Judul</li>
+        </ol>
+
+        <ul type="circle">
+            <li>Judul</li>
+            <li>Sub Judul</li>
+            <li>Sub Sub Judul</li>
+        </ul>
+
+        <ul type="square">
+            <li>Judul</li>
+            <li>Sub Judul</li>
+            <li>Sub Sub Judul</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="table">
+        <h1 align="center">Table</h1>
+        <table align="center" bgcolor="lightyellow" border="1" cellpadding="5" cellspacing="0" height="300" width="466">
+        <tr>
+            <td style="text-align: center;"><span style="color:#FF0000;"><strong>No.</strong></span></td>
+            <td style="text-align: center;"><span style="color:#FF0000;"><strong>Kolom 2</strong></span></td>
+            <td style="text-align: center;"><span style="color:#FF0000;"><strong>Kolom 3</strong></span></td>
+            <td style="text-align: center;"><span style="color:#FF0000;"><strong>Kolom 4</strong></span></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">1.</td>
+            <td><span style="color:#0000FF;">Isi sel kolom 2 baris 1</span></td>
+            <td><span style="color:#0000FF;">Isi sel kolom 3 baris 1</span></td>
+            <td><span style="color:#0000FF;">Isi sel kolom 4 baris 1</span></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">2.</td>
+            <td style="text-align: right;">Isi sel kolom 2 baris 2</td>
+            <td style="text-align: right;">Isi sel kolom 3 baris 2</td>
+            <td style="text-align: right;">Isi sel kolom 4 baris 2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">3.</td>
+            <td style="text-align: center;"><a href="https://stmikdharmanegara.ac.id" target="_blank"><img alt="Logo STMIK DN" src="https://stmikdharmanegara.ac.id/wp-content/uploads/2021/08/LOGO-DNBS-05-2.png" style="width: 100px; height: 50px; margin: 1px;" /></a></td>
+            <td bgcolor="#dddddd" style="text-align: center;"><span style="color:#800080;">Warna background lain</span></td>
+            <td style="text-align: center;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">Jumlah</td>
+            <td>Rp. 1234</td>
+        </tr>
+        </table>
+    </section>
+    <hr>
+    
+    <section id="video">
+        <h1 align="center">Frame Video</h1>
+        <div align="center">
+            <iframe width="506" height="253" src="https://www.youtube.com/embed/APmg-BlyX0g" title="SaKKSI 2021 Smart School - Hilton In Tropical - SMK Wikrama Bogor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <frameset cols="25%,*,35%">
+        <frame src="frame_a.htm">
+        <frame src="frame_b.htm">
+        <frame src="frame_c.htm">
+        </frameset>
+    </section>
+</body>
+</html>
